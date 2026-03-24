@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 2 - HTML Form</title>
+
+    <style>
+        /* here I am setting simple background and font */
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+
+        /* this is the main form container placed at center */
+        #formContainer {
+            width: 350px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+        }
+
+        /* I used this class to style all input fields same */
+        .inputField {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px 0;
+        }
+
+        /* this is styling for submit button */
+        .btn {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- this div holds my whole form -->
+<div id="formContainer">
+    <h2>Registration Form</h2>
+
+    <!-- form starts here -->
+    <form action="#" method="post">
+
+        <!-- taking user's name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" class="inputField" name="name">
+
+        <!-- password input field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" class="inputField" name="password">
+
+        <!-- radio button for selecting only one option -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        <!-- checkbox for multiple selection -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox"> Reading
+        <input type="checkbox"> Sports
+        <br><br>
+
+        <!-- submit button -->
+        <input type="submit" class="btn" value="Submit">
+
+    </form>
+</div>
+
+</body>
+</html>

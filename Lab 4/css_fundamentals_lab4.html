@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 4 - CSS Fundamentals</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+            color: green;
+        }
+
+        /* Class selector */
+        .box {
+            background-color: lightblue;
+            padding: 15px;
+            margin: 10px;
+            border: 2px solid blue;
+        }
+
+        /* ID selector */
+        #special {
+            color: red;
+            font-weight: bold;
+        }
+
+        /* List styling */
+        ul {
+            background-color: #ddd;
+            padding: 10px;
+        }
+
+        /* Table styling */
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #bbb;
+        }
+    </style>
+
+    <!-- External CSS (example) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="border-bottom: 2px solid black;">CSS Fundamentals Demo</h1>
+
+    <h2>1. CSS Basics and Syntax</h2>
+
+    <div class="box">
+        This is a box using class selector (background, padding, margin, border).
+    </div>
+
+    <div class="box" id="special">
+        This box uses ID selector (text color and bold).
+    </div>
+
+    <p style="color: purple;">
+        This paragraph uses inline CSS for text color.
+    </p>
+
+    <h2>2. Styling Elements</h2>
+
+    <h3>List Example</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>PHP</li>
+    </ul>
+
+    <h3>Table Example</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+            <td>Safal</td>
+            <td>BCA</td>
+        </tr>
+        <tr>
+            <td>Ram</td>
+            <td>BIM</td>
+        </tr>
+    </table>
+
+    <h2>3. CSS Box Model</h2>
+
+    <div class="box">
+        Content inside box <br>
+        (Padding = space inside, Margin = space outside, Border = edge line)
+    </div>
+
+</body>
+</html>

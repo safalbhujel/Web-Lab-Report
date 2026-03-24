@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 3 - HTML5 Tags</title>
+
+    <!-- meta tag for character encoding -->
+    <meta charset="UTF-8">
+
+   <style>
+    body {
+        font-family: Arial;
+        margin: 20px;
+        background-color: #e8f5bd6a;
+        color: #992013;
+        margin: 5;
+    }
+    header, footer {
+        background-color: #84B179;
+        padding: 10px;
+    }
+    nav {
+        background-color: #A2CB8B;
+        padding: 10px;
+    }
+    section {
+        margin-top: 15px;
+    }
+    article {
+        background-color: #E8F5BD;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    aside {
+        background-color: #C7EABB;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    figure {
+        margin-top: 10px;
+    }
+</style>
+</head>
+
+<body>
+
+    <!-- header part -->
+    <header>
+        <h1>My HTML5 Page</h1>
+        <p>Simple use of modern HTML tags</p>
+    </header>
+
+    <!-- navigation menu -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- main content -->
+    <main>
+
+        <section>
+            <h2>Main Section</h2>
+
+            <article>
+                <h3>Article Title</h3>
+                <p>This is a simple article content using HTML5 semantic tags.</p>
+            </article>
+
+            <!-- aside content -->
+            <aside>
+                <p>This is side content (extra info).</p>
+            </aside>
+
+            <!-- figure with image -->
+            <figure>
+                <img src="1.jpg" width="200" alt="sample image">
+                <figcaption>Sample Image</figcaption>
+            </figure>
+
+        </section>
+
+        <!-- audio example -->
+        <section>
+            <h2>Audio Example</h2>
+            <audio src="Stay.mp3" controls loop></audio>
+        </section>
+
+        <!-- video example -->
+        <section>
+            <h2>Video Example</h2>
+            <video src="weddingalbum.mp4" width="300" controls></video>
+        </section>
+
+        <!-- canvas (just empty box, no JS allowed) -->
+        <section>
+            <h2>Canvas Example</h2>
+            <canvas width="200" height="100" style="border:1px solid black;">
+                Your browser does not support canvas
+            </canvas>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <p>© 2026 Safal Bhujel Website</p>
+        <p>safalbhujel101@gmail.com</p>
+    </footer>
+
+</body>
+</html>

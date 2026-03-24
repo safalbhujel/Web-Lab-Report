@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab 1 - HTML Basics</title>
+
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>HTML Lab 1</h1>
+
+    <!-- Text Formatting -->
+    <h2>Text Formatting</h2>
+    <p>This is <b>bold</b> text.</p>
+    <p>This is <i>italic</i> text.</p>
+    <p>This is <small>small</small> text.</p>
+    <p>H<sub>2</sub>O (Subscript example)</p>
+    <p>2<sup>3</sup> = 8 (Superscript example)</p>
+
+    <pre>
+This is preformatted text.
+It preserves    spaces and line breaks.
+    </pre>
+
+    Line break example:<br>Next line after break.
+
+    <!-- Image and Link -->
+    <h2>Image and Hyperlink</h2>
+    <img src="images/image1.jpg" alt="Sample Image" width="200">
+
+    <p>
+        Visit
+        <a href="https://www.google.com" target="_blank">Google</a>
+    </p>
+
+    <!-- Lists -->
+    <h2>Lists</h2>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>PHP</li>
+    </ol>
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+    </ul>
+
+    <h3>Definition List</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+
+        <dt>CSS</dt>
+        <dd>Used for styling web pages</dd>
+    </dl>
+
+    <!-- Table -->
+    <h2>Table Example</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Marks</th>
+            </tr>
+            <tr>
+                <th>Math</th>
+                <th>Science</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ram</td>
+                <td>80</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Shyam</td>
+                <td>75</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">End of Table</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Iframe -->
+    <h2>Iframe Example</h2>
+    <iframe src="https://www.wikipedia.org" width="400" height="200"></iframe>
+
+</body>
+
+</html>

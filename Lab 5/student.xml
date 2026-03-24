@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students xmlns="http://example.com/student">
+    <student id="1">
+        <name>Safal</name>
+        <age>20</age>
+        <course>BCA</course>
+    </student>
+    
+    <student id="2">
+        <name>Ram</name>
+        <age>21</age>
+        <course>BCA</course>
+    </student>
+</students>
